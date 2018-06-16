@@ -22,16 +22,21 @@
             android:title="Tools" />
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="About">
         <menu>
             <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:id="@+id/nav_help"
+                android:icon="@android:drawable/ic_menu_help"
+                android:title="@string/help" />
+
             <item
-                android:id="@+id/nav_send"
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/about" />
+            <item
+                android:id="@+id/nav_send_feedback"
                 android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:title="@string/send_feedback" />
         </menu>
     </item>
 
